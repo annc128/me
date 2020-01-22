@@ -1,17 +1,22 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
+import Header from './components/Header';
+import Portfolio from './components/Portfolio';
+import About from './components/About';
 import Footer from './components/Footer';
-import Home from './components/Home';
 
 function App() {
   return (
     <BrowserRouter>
-      <Route exact path="/" component={Home} />
+      {/* <Route exact path="/" component={Home} /> */}
       {/* <Route path="/portfolio" component={Portfolio} /> */}
       <div className="App">
         <Navbar />
+        <Header />
+        <Portfolio></Portfolio>
+        <About />
         <Footer />
 
       </div>
