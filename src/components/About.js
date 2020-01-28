@@ -1,10 +1,10 @@
 import React from 'react';
 export default () => {
     return (
-        <section className="page-section bg-primary text-white mb-0" id="about">
+        <section className="page-section mb-0 bg-primary" id="about">
             <div className="container">
 
-                <h2 className="page-section-heading text-center text-uppercase text-white">About</h2>
+                <h2 className="page-section-heading text-center text-white text-uppercase">About</h2>
 
                 <div className="divider-custom divider-light">
                     <div className="divider-custom-line"></div>
@@ -13,7 +13,7 @@ export default () => {
                     </div>
                     <div className="divider-custom-line"></div>
                 </div>
-                <p className="lead l-2">I worked as a software engineer at an ODM. Our department was responsible for the BIOS development on laptops. 
+                <p className="lead l-2 text-white">I worked as a software engineer at an ODM. Our department was responsible for the BIOS development on laptops. 
                     Working at a large enterprise taught me not only substantial knowledge in the embedded system but also the spirit of working in a team. 
                     Those challenges I got gave me the motivation to keep digging in programming. I appreciate the experience from my previous job since it helped me to find my passion.<br /><br /> 
                     For digging into object-oriented programming, I started taking programs in BCIT and got several certificates and Diploma of Computer Systems Technology. 

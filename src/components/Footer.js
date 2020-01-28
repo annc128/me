@@ -18,6 +18,9 @@ export default () => {
                         <a className="btn btn-outline-light btn-social mx-1" href="https://github.com/pchen128">
                             <i className="fa fa-fw fa-github"></i>
                         </a>
+                        <a className="btn btn-outline-light btn-social mx-1" href="mailto:ann3769@hotmail.com">
+                            <i className="fa fa-fw fa-envelope"></i>
+                        </a>
                     </div>
 
                     <div className="col-lg-4">
