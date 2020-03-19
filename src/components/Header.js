@@ -6,7 +6,7 @@ export default () => {
 
                 <img className="masthead-avatar mb-5" src={require('../assets/img/head.png')} alt="" />
 
-                <h1 className="masthead-heading text-uppercase mb-0">Pin Chen, Chen</h1>
+                <h1 className="masthead-heading text-uppercase mb-0">Ann, Chen</h1>
 
                 <div className="divider-custom divider-light">
                     <div className="divider-custom-line"></div>
